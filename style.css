@@ -79,9 +79,7 @@ website: 	http://blankenship.xyz
 		color: black;
 		display: block;
 		font: 900 italic 10vw/7.25vw freight-micro-pro, serif;
-		margin-top: 10vw;
 		text-align: left;
-		text-transform: uppercase;
   		padding: 1rem 0 0 0;
   	}
 
@@ -90,49 +88,17 @@ website: 	http://blankenship.xyz
   		grid-template-columns: 33% 33% 33%;
   	}
 
+  	h1 span { dsiplay: block; }
 	h2 {
 		display: none;
 	}
 
-	a { 
-		color: black;
-		display: inline-block;
-		text-decoration: none;
+	article {
+		margin-bottom: 100px;
 	}
 
-	a:hover { 
-		color: silver;	
-	}
-
-	.highlight {
-		background-color: rgba(255, 224, 0, 0.7);
-		opacity: 1;
-		display: inline;
-		padding: 0.2rem 0;
-		-webkit-box-decoration-break: clone;
-		box-decoration-break: clone;
-	}
-
-	a.highlight:hover  {
-		background-color: rgba(255, 0, 243, 0.7);
-		color: black;
-	}
-
-	h3 {
-		background-color: black;
-		color: white;
-		font: 700 .9vw/.9vw "futura-pt-bold", sans-serif;
-		letter-spacing: 3px;
-		margin-bottom: 4vw;
-		padding: 2rem;
-		text-align: left;
-		text-transform: uppercase;
-	}
-
-	h4 {
-		color: black;
-		font: 900 6vw/6vw "dharma-gothic-e", sans-serif;
-		text-transform: uppercase;
+	article p {
+		font: 400 3vw/3.5vw freight-micro-pro, serif;
 	}
 
   	footer {
