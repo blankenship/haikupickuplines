@@ -107,9 +107,9 @@ website: 	http://blankenship.xyz
 	article:nth-child(9) { margin-left: 25%; }*/
 
 	article p {
-		color: #222;
+		color: black;
 		font: 400 2vw/2.5vw freight-micro-pro, serif;
-		letter-spacing: -1px;
+		letter-spacing: -.5rem;
 		text-shadow: 1px 1px #fff;
 	}
 
