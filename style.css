@@ -1,32 +1,11 @@
 /* 
 
-Styles:		blankenship.studio
+Styles:		Haiku Pickup Lines
 
-version: 	1.0 — 12/10/19 Update
+version: 	1.0 — 12/13/19 Update
 author: 	Joshua Blankenship
-email: 		hello@blankenshipoffice.com
-website: 	http://blankenship.studio
-          
-
-/* SYMBOL */
-
-#cornerbug {
-	position: fixed;
-	right: 0;
-	}
-
-.symbol {
-	display: grid;
-	grid-template-columns: 50% 50%;
-	height: 10vw;
-	width: 10vw;
-}
-
-.symbol .dot,
-.symbol .dash { background-color: black; height: 33%;}
-.symbol .dot { width: 40%; }
-.symbol .dot:nth-child(even) { margin-left: 50%; text-align: right; }
-.symbol .dash { width: 100%; }
+email: 		joshua@blankenship.xyz
+website: 	http://blankenship.xyz
 
 /* FOUNDATION */
 
@@ -99,13 +78,18 @@ website: 	http://blankenship.studio
 	h1 {
 		color: black;
 		display: block;
-		font: 900 10vw/7.25vw "dharma-gothic-c", sans-serif;
+		font: 900 italic 10vw/7.25vw freight-micro-pro, serif;
 		margin-top: 10vw;
 		text-align: left;
 		text-transform: uppercase;
   		padding: 1rem 0 0 0;
   	}
 
+  	h1 {
+  		display: grid;
+  		grid-template-columns: 33% 33% 33%;
+  	}
+  	
 	h2 {
 		color: black;
 		font: 400 italic 1.6vw/2.2vw freight-text-pro, serif;
