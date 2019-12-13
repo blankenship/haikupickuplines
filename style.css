@@ -61,11 +61,11 @@ website: 	http://blankenship.xyz
 	img { filter: grayscale(100%); }
 
 	body {
-		background-color: ivory;
+		background-color: #eee;
 		line-height: 1.5;
 		overflow-x: hidden;
 		padding: 10vw 20vw;
-		max-width: 1400px;
+		max-width: 1200px;
 	}
 
 	header {
@@ -109,7 +109,6 @@ website: 	http://blankenship.xyz
 	article p {
 		color: black;
 		font: 400 2vw/2.5vw freight-micro-pro, serif;
-		letter-spacing: -.05rem;
 		text-shadow: 1px 1px rgba(255,255,255, .5);
 	}
 
@@ -117,17 +116,10 @@ website: 	http://blankenship.xyz
   		margin: 0;
   		padding: 0;
    }
-
-   footer p {
-		font: 400 2vw/2.5vw freight-micro-pro, serif;
-   }
    
 	section {
 		margin-bottom: 10rem;
 		padding-top: 1rem;
-	}
-
-	vw "futura-pt-bold", sans-serif;
 	}
 
 /* SECTION -- FOOTER */
@@ -136,24 +128,13 @@ website: 	http://blankenship.xyz
 		border-top: 2px solid black; 
 		margin-bottom: 10vw;
 		display: grid;
+		font: 700 1.2vw/2vw "futura-pt-bold", sans-serif;
 		grid-template-columns: 50% 50%;
 		padding: 1rem 0 0;
 	}
 
-	footer span { 
-		display: inline-block;
-		font: 700 1.2vw/2vw "futura-pt-bold", sans-serif;
-	}
-
-	footer .social a {
-		color: black;
-		font-size: 200%;
-		margin: 0 5px 20px;
-	}
-
-	footer .social a:hover { color: rgba(255, 224, 0, 0.7); }
-
 	.arashikage {
+		display: none;
 		font-size: 200%;
 		line-height: 1.8vw;
 		text-align: right;
