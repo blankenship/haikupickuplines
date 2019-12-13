@@ -97,13 +97,13 @@ website: 	http://blankenship.xyz
 		margin-bottom: 100px;
 	}
 
-	article:nth-child(2) { margin-left: 25%; }
+	/*article:nth-child(2) { margin-left: 25%; }
 	article:nth-child(3) { margin-left: 50%; }
 	article:nth-child(4) { margin-left: 25%; }
 	article:nth-child(5) { margin-left: 75%; }
 	article:nth-child(7) { margin-left: 25%; }
 	article:nth-child(8) { margin-left: 50%; }
-	article:nth-child(9) { margin-left: 25%; }
+	article:nth-child(9) { margin-left: 25%; }*/
 
 	article p {
 		font: 400 2.5vw/3vw freight-micro-pro, serif;
