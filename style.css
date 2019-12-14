@@ -110,7 +110,7 @@ website: 	http://blankenship.xyz
 
 	article p.red {
 		color: red;
-		font-style: 75%;
+		font-size: 50%;
 		font-weight: bold;
 	}
 
