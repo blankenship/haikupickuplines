@@ -78,10 +78,10 @@ website: 	http://blankenship.xyz
 	h1 {
 		color: black;
 		display: block;
-		font: 400 italic 5vw/5vw clarendon-text-pro, serif;
-		letter-spacing: -2px;
+		font: 700 3vw/3vw "futura-pt-bold", sans-serif;
+		letter-spacing: 2px;
 		text-align: left;
-  		padding: 1rem 0 0 0;
+  		padding: 1rem 0;
   	}
 
   	/*h1 {
