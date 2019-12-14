@@ -106,7 +106,12 @@ website: 	http://blankenship.xyz
 	article p {
 		color: black;
 		font: 400 2vw/2.5vw clarendon-text-pro, serif;
-		text-shadow: 1px 1px rgba(255,255,255, .5);
+	}
+
+	article p.red {
+		color: red;
+		font-style: 75%;
+		font-weight: bold;
 	}
 
   	footer {
