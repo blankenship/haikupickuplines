@@ -84,11 +84,6 @@ website: 	http://blankenship.xyz
   		padding: 1rem 0;
   	}
 
-  	/*h1 {
-  		display: grid;
-  		grid-template-columns: 33% 33% 33%;
-  	}*/
-
   	h1 span { dsiplay: block; }
 	h2 {
 		display: none;
@@ -135,11 +130,9 @@ website: 	http://blankenship.xyz
 		padding: 1rem 0 0;
 	}
 
-	.arashikage {
-		display: none;
-		font-size: 200%;
-		line-height: 1.8vw;
-		text-align: right;
+	footer a {
+		display: inline;
+		color: #cb2027;
 	}
 
 /* WEE SCREENS */
