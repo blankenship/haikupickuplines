@@ -59,8 +59,6 @@ website: 	http://blankenship.xyz
 	    }
 	}
 
-	img { filter: grayscale(100%); }
-
 	body {
 		background-color: #111;
 		border-left: 4vw solid firebrick;
@@ -72,7 +70,7 @@ website: 	http://blankenship.xyz
 	}
 
 	header {
-		margin: 0 auto 5vw;
+		margin: 0 auto 3rem;
 		padding: 0;
 	}
 
