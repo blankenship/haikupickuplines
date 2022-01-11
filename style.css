@@ -87,8 +87,8 @@ website: 	http://blankenship.xyz
 
 	h2 {
 		color: dimgray;
-		font: 700 1.1rem/1rem "futura-pt-bold", sans-serif;
-		letter-spacing: 3px;
+		font: 700 1rem/1rem "futura-pt-bold", sans-serif;
+		letter-spacing: .3rem;
 		padding-bottom: 1.5rem;
 		text-transform: uppercase;
 	}
@@ -99,6 +99,7 @@ website: 	http://blankenship.xyz
 
 	article p {
 		font: 400 2rem/2.75rem clarendon-text-pro, serif;
+		margin-bottom: .5rem;
 	}
 
 	article p.red {
