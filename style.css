@@ -61,7 +61,7 @@ website: 	http://blankenship.xyz
 
 	body {
 		background-color: #111;
-		border-left: 4vw solid firebrick;
+		border-left: 5rem solid firebrick;
 		color: linen;
 		line-height: 1.5;
 		overflow-x: hidden;
@@ -78,15 +78,16 @@ website: 	http://blankenship.xyz
 
 	h1 {
 		display: block;
-		font: 700 3vw/3vw "futura-pt-bold", sans-serif;
+		color: linen;
+		font: 700 3rem/3rem "futura-pt-bold", sans-serif;
 		letter-spacing: 2px;
 		text-align: left;
-  		padding: 1rem 0;
+  		padding-bottom: 1rem;
   	}
 
 	h2 {
 		color: dimgray;
-		font: 700 1.1vw/1vw "futura-pt-bold", sans-serif;
+		font: 700 1.1rem/1rem "futura-pt-bold", sans-serif;
 		letter-spacing: 3px;
 		padding-bottom: 1.5rem;
 		text-transform: uppercase;
@@ -97,7 +98,7 @@ website: 	http://blankenship.xyz
 	}
 
 	article p {
-		font: 400 2vw/2.5vw clarendon-text-pro, serif;
+		font: 400 2rem/2.75rem clarendon-text-pro, serif;
 	}
 
 	article p.red {
@@ -120,14 +121,14 @@ website: 	http://blankenship.xyz
 
 	footer {
 		border-top: 2px solid black; 
-		margin-bottom: 10vw;
-		font: 700 1.2vw/2vw "futura-pt-bold", sans-serif;
+		margin-bottom: 10rem;
+		font: 700 1.2rem/2rem "futura-pt-bold", sans-serif;
 		padding: 1rem 0 0;
 	}
 
 	footer a {
 		display: inline;
-		color: #cb2027;
+		color: firebrick;
 	}
 
 /* WEE SCREENS */
