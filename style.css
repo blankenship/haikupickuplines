@@ -137,7 +137,7 @@ website: 	http://blankenship.xyz
 		@media (min-width: 100px) and (max-width: 800px) {
 
 			body {
-					border-top: 1rem solid firebrick;
+					border-top: 2rem solid firebrick;
 					border-left: 0 none;
 					padding: 2rem 0 5rem 1rem;
 					max-width: 100%;
@@ -162,4 +162,11 @@ website: 	http://blankenship.xyz
 				margin-bottom: .5rem;
 			}
 
-		}
+			footer {
+					font: 700 .8rem/1rem "futura-pt-bold", sans-serif;
+					padding: 0;
+				}
+
+			section {
+					margin-bottom: 2rem;
+					}
