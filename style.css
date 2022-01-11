@@ -63,7 +63,7 @@ website: 	http://blankenship.xyz
 
 	body {
 		background-color: #111;
-		border-left:  20px solid firebrick;
+		border-left: 30px solid firebrick;
 		color: linen;
 		line-height: 1.5;
 		overflow-x: hidden;
@@ -86,19 +86,16 @@ website: 	http://blankenship.xyz
   		padding: 1rem 0;
   	}
 
-  	h1 span { dsiplay: block; }
 	h2 {
-		display: none;
+		color: #ccc;
+		font: 700 1vw/1vw "futura-pt-bold", sans-serif;
+		letter-spacing: 3px;
+		text-transform: uppercase;
 	}
 
 	article {
 		margin-bottom: 100px;
 	}
-/*
-	article:nth-child(even) { 
-		margin-left: 25%; 
-		text-align: right;
-	}*/
 
 	article p {
 		font: 400 2vw/2.5vw clarendon-text-pro, serif;
