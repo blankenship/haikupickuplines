@@ -138,6 +138,7 @@ website: 	http://blankenship.xyz
 
 			body {
 					border-top: 1rem solid firebrick;
+					border-left: 0 none;
 					padding: 2rem 0 5rem 1rem;
 					max-width: 100%;
 				}
