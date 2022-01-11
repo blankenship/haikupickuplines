@@ -137,7 +137,7 @@ website: 	http://blankenship.xyz
 		@media (min-width: 100px) and (max-width: 800px) {
 
 			body {
-					border-left: .5rem solid firebrick;
+					border-top: 1rem solid firebrick;
 					padding: 2rem 0 5rem 1rem;
 					max-width: 100%;
 				}
