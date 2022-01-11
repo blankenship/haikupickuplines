@@ -121,8 +121,6 @@ website: 	http://blankenship.xyz
 /* SECTION -- FOOTER */
 
 	footer {
-		border-top: 2px solid black; 
-		margin-bottom: 10rem;
 		font: 700 1.2rem/2rem "futura-pt-bold", sans-serif;
 		padding: 1rem 0 0;
 	}
