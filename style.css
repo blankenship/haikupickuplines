@@ -143,7 +143,7 @@ website: 	http://blankenship.xyz
 				}
 
 			h1 {
-					font: 700 1.5rem/1.75rem "futura-pt-bold", sans-serif;
+					font: 700 1.5rem/1.5rem "futura-pt-bold", sans-serif;
 			  		padding-bottom: 1rem;
 			  	}
 
@@ -153,6 +153,12 @@ website: 	http://blankenship.xyz
 			}
 
 			article {
-				margin-bottom: 10rem;
+				margin-bottom: 5rem;
 			}
+
+			article p {
+				font: 400 1.5rem/2rem clarendon-text-pro, serif;
+				margin-bottom: .5rem;
+			}
+
 		}
