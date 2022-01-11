@@ -67,7 +67,7 @@ website: 	http://blankenship.xyz
 		color: linen;
 		line-height: 1.5;
 		overflow-x: hidden;
-		padding: 10vw 15vw;
+		padding: 10vw 0 15vw 15vw;
 		max-width: 1000px;
 	}
 
