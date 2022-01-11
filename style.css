@@ -137,13 +137,13 @@ website: 	http://blankenship.xyz
 		@media (min-width: 100px) and (max-width: 800px) {
 
 			body {
-					border-left: 2rem solid firebrick;
-					padding: 5rem 0 10rem 5rem;
+					border-left: 1rem solid firebrick;
+					padding: 2rem 0 5rem 1rem;
 					max-width: 100%;
 				}
 
 			h1 {
-					font: 700 2rem/2rem "futura-pt-bold", sans-serif;
+					font: 700 1.5rem/1.75rem "futura-pt-bold", sans-serif;
 			  		padding-bottom: 1rem;
 			  	}
 
