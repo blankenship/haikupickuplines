@@ -87,10 +87,10 @@ website: 	http://blankenship.xyz
   	}
 
 	h2 {
-		color: #333;
-		font: 700 1vw/1vw "futura-pt-bold", sans-serif;
+		color: dimgray;
+		font: 700 1.25vw/1.25vw "futura-pt-bold", sans-serif;
 		letter-spacing: 3px;
-		padding-bottom: 5rem;
+		padding-bottom: 2rem;
 		text-transform: uppercase;
 	}
 
