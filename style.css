@@ -76,26 +76,19 @@ header {
 /* TYPOGRAPHY */
 
 h1 {
-	display: block;
-	color: linen;
-	font: 700 3rem/3rem "futura-pt-bold", sans-serif;
-	letter-spacing: 2px;
-	text-align: left;
-	padding-bottom: 1rem;
+	color: #222;
+	font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif;
+	letter-spacing: -.25rem;
 }
 
-h2 {
-	color: dimgray;
-	font: 700 .8rem/1.5rem "futura-pt-bold", sans-serif;
-	letter-spacing: .3rem;
-	padding-bottom: 1.5rem;
-	text-transform: uppercase;
-}
+
+nav ul li, 
+h6 { font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; }
 
 p {
   	white-space: pre;
-	font: 400 2rem/2.75rem clarendon-text-pro, serif;
-	margin-bottom: .5rem;
+	font: 400 1.5rem/2rem serif;
+	margin-bottom: 2rem;
 }
 
 footer {
