@@ -135,7 +135,7 @@ header section nav {
 
 main aside {
 	display: grid;
-	grid-template-columns: 30% 60%;
+	grid-template-columns: 20% 70%;
 	grid-column-gap: 10%;
 }
 
