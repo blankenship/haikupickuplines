@@ -202,6 +202,10 @@ section.about div p a {
 	color: inherit;
 }
 
+section.about div p a:hover {
+	color: firebrick;
+}
+
 section.about div ul li {
 	margin-right: 1rem;
 }
