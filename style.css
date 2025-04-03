@@ -190,20 +190,34 @@ button:hover {
 
 figcaption ul li button { margin: 0 1rem; }
 
+section.about div {
+	background: black;
+	color: snow;
+	padding: 5rem;
+}
+
+
 footer {
 	background: black;
 	color: snow;
 	margin: 0 auto;
+	text-align: center;
 	padding: 5rem 0;
+}
+
+footer p {
+	font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; 
 }
 
 /* DRAWINGS */
 
 .gallery-container {
+  background: white;
   width: 100vw;
   margin: 2rem auto 0;
   overflow: hidden;
   position: relative;
+  padding: 5rem 0;
 }
 
 .scroll-container {
