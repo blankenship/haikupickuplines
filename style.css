@@ -216,7 +216,7 @@ footer {
 	grid-template-columns: 50% 50%;
 	margin: 0 auto;
 	text-align: center;
-	padding: 3.5rem 7rem;
+	padding: 3.5rem 0;
 }
 
 footer p {
@@ -224,7 +224,11 @@ footer p {
 	font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; 
 }
 
-footer p a { text-align: right; }
+footer p a { 
+	color: inherit;
+	text-align: right; 
+}
+
 
 /* DRAWINGS */
 
