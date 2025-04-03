@@ -88,7 +88,7 @@ h2 {
 }
 
 h3 {
-		border-bottom: 10px solid black;
+		border-bottom: 7px solid inherit;
 		font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; 
 		padding-bottom: 1rem;
 		margin-bottom: 2rem;
@@ -165,8 +165,6 @@ section.about {
 	margin: 0 auto;
 	padding: 0;
 }
-
-
 
 button { 
 	background: black;
