@@ -153,6 +153,10 @@ main aside img {
 	width: 100%;
 }
 
+main p {
+	text-align: justify;
+}
+
 section.about {
 	display: grid;
 	grid-template-columns: 50% 50%;
