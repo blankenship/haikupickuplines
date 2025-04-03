@@ -135,19 +135,24 @@ figure img {
 button { 
 	background: black;
 	border: 0 none;
-	border-radius: .1rem;
+	border-radius: .5rem;
 	color: snow;
-	padding: .5rem 1rem;
+	padding: 1rem;
 }
 
-button a { color: snow; }
+button a { 
+	color: snow; 
+	font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; 
+	text-transform: uppercase;
+	text-decoration: none;
+}
 
 button:hover {
 	background: firebrick;
 	color: black;
 }
 
-figcaption ul li button { margin: 0 2rem; }
+figcaption ul li button { margin: 0 1rem; }
 
 footer {
 	background: black;
