@@ -108,14 +108,14 @@ header figure figcaption {
 }
 
 header main {
-	padding: 5rem;
+	padding: 0 5rem 5rem;
 }
 
 header section nav {
 	display: grid;
 	grid-template-columns: 50% 50%;
 	margin: 0 auto;
-	padding: 5rem 0;
+	padding: 5rem;
 }
 
 section.about {
