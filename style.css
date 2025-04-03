@@ -215,6 +215,10 @@ section.about div ul li a:hover {
 	color: snow;
 }
 
+section.about figure img { 
+	background: black;
+}
+
 footer {
 	background: firebrick;
 	color: black;
