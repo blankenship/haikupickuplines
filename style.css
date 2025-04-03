@@ -195,6 +195,7 @@ section.about div {
 section.about p {
 	font: 100 1.5rem/2rem "neue-haas-grotesk-display", sans-serif; 
 	margin-bottom: 2rem;
+	text-align: justify;
 }
 
 section.about div p a {
