@@ -193,11 +193,12 @@ section.about div {
 }
 
 section.about div p a {
+	color: inherit;
 	font-style: italic;
 }
 
 section.about div ul li {
-	margin: 0 1rem;
+	margin-right: 1rem;
 }
 
 section.about div ul li a {
@@ -211,14 +212,19 @@ section.about div ul li a:hover {
 footer {
 	background: firebrick;
 	color: black;
+	display: grid;
+	grid-template-columns: 50% 50%;
 	margin: 0 auto;
 	text-align: center;
-	padding: 5rem 0;
+	padding: 3.5rem 7rem;
 }
 
 footer p {
+	display: block;
 	font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; 
 }
+
+footer p a { text-align: right; }
 
 /* DRAWINGS */
 
