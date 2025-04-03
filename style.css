@@ -89,9 +89,9 @@ h2 {
 
 h3 {
 		border-bottom: 7px solid inherit;
-		font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; 
-		padding-bottom: 1rem;
-		margin-bottom: 2rem;
+		font: 700 1.25rem/1.25rem "neue-haas-grotesk-display", sans-serif; 
+		padding-bottom: 1.25rem;
+		margin-bottom: 2.5rem;
 }
 
 ul li { font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; }
