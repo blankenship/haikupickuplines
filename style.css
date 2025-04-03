@@ -88,9 +88,7 @@ h2 {
 }
 
 h3 {
-		border-bottom: 7px solid black;
 		font: 700 1.25rem/1.25rem "neue-haas-grotesk-display", sans-serif; 
-		padding-bottom: 1.25rem;
 		margin-bottom: 2.5rem;
 }
 
@@ -164,10 +162,6 @@ section.about {
 	grid-template-columns: 70% 30%;
 	margin: 0 auto;
 	padding: 0;
-}
-
-section.about h3 {
-	border-bottom: 7px solid snow;
 }
 
 button { 
