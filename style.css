@@ -118,6 +118,12 @@ header section nav {
 	padding: 5rem;
 }
 
+main aside {
+	display: grid;
+	grid-template-columns: 30% 60%;
+	grid-column-gap: 10%;
+}
+
 section.about {
 	display: grid;
 	grid-template-columns: 50% 50%;
