@@ -131,7 +131,7 @@ ul li {
         transform: translateX(0);
       }
       100% {
-        transform: translateX(calc(-330px * 32)); /* Width of each item (300px) + margin (30px) * number of items */
+        transform: translateX(calc(-330px * 10)); /* Width of each item (300px) + margin (30px) * number of items */
       }
     }
     
