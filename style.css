@@ -77,8 +77,8 @@ h1 {
 
 h2 {
 	color: black;
-	font: 400 3rem/4rem serif;
-	margin-bottom: 4rem;
+	font: 400 2rem/2.5rem serif;
+	margin-bottom: 2.5rem;
 }
 
 ul li { font: 400 1rem/1rem "neue-haas-grotesk-display", sans-serif; }
@@ -107,20 +107,15 @@ header figure figcaption {
 	padding: 5rem 0;
 }
 
-header nav {
-	border-bottom: 1px solid black;
-	padding: 5rem;
-}
-
 header main {
 	padding: 5rem;
 }
 
-section nav {
+header section nav {
 	display: grid;
 	grid-template-columns: 50% 50%;
 	margin: 0 auto;
-	padding: 0;
+	padding: 5rem 0;
 }
 
 section.about {
