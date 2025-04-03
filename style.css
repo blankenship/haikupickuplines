@@ -198,8 +198,8 @@ section.about div {
 
 
 footer {
-	background: black;
-	color: snow;
+	background: firebrick;
+	color: black;
 	margin: 0 auto;
 	text-align: center;
 	padding: 5rem 0;
@@ -214,7 +214,7 @@ footer p {
 .gallery-container {
   background: white;
   width: 100vw;
-  margin: 2rem auto 0;
+  margin: 0 auto;
   overflow: hidden;
   position: relative;
   padding: 5rem 0;
