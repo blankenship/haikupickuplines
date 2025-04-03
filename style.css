@@ -89,6 +89,7 @@ h2 {
 
 h3 {
 		font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; 
+		margin-bottom: 2rem;
 }
 
 ul li { font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; }
@@ -144,7 +145,7 @@ header section nav {
 
 main aside {
 	display: grid;
-	grid-template-columns: 20% 75%;
+	grid-template-columns: 75% 20%;
 	grid-column-gap: 5%;
 }
 
