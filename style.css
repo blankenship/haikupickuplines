@@ -192,9 +192,14 @@ section.about div {
 	padding: 7rem;
 }
 
+section.about p {
+	font: 100 1.5rem/2rem "neue-haas-grotesk-display", sans-serif; 
+	margin-bottom: 2rem;
+}
+
 section.about div p a {
 	color: inherit;
-	font-style: italic;
+	font: 700 1.5rem/2rem "neue-haas-grotesk-display", sans-serif; 
 }
 
 section.about div ul li {
