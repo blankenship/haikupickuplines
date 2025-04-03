@@ -139,13 +139,20 @@ figure img {
 
 button { 
 	background: black;
+	border: 0 none;
+	border-radius: .1rem;
 	color: snow;
- }
+	padding: .5rem 1rem;
+}
+
+button a { color: snow; }
 
 button:hover {
 	background: firebrick;
 	color: black;
 }
+
+figcaption ul li button { margin: 0 2rem; }
 
 footer {
 	background: black;
