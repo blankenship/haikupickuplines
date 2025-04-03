@@ -139,6 +139,10 @@ main aside {
 	grid-column-gap: 10%;
 }
 
+main aside img {
+	width: 100%;
+}
+
 section.about {
 	display: grid;
 	grid-template-columns: 50% 50%;
