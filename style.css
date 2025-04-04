@@ -149,6 +149,10 @@ header section nav {
 
 header section nav img { width: 100%; }
 
+main h2:last-of-type {
+	margin-bottom: 7rem;
+}
+
 main p {
 	text-align: justify;
 }
