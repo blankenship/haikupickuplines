@@ -212,7 +212,9 @@ section.about div ul li {
 }
 
 section.about div ul li a {
+	border-bottom: 1px sild gray;
 	color: firebrick;
+	text-decoration: none;
 }
 
 section.about div ul li a:hover {
