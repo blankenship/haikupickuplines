@@ -365,9 +365,14 @@ section#about div {
 	padding: 5rem 5vw;
 }
 
+section#about {
+	text-align: left;
+}
+
 footer p {
+	color: snow;
 	margin: 0 auto;
-	width: 75%; 
+	width: 80%; 
 }
 
 h2 {
@@ -376,8 +381,8 @@ h2 {
 }
 
 h3 {
-		font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; 
-		margin-bottom: 1.75rem;
+	font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; 
+	margin-bottom: 1.75rem;
 }
 
 p {
@@ -385,6 +390,8 @@ p {
 	margin-bottom: 1.75rem;
 }
 
+section#about div ul li {
+	font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; 
 }
 
 @media (min-width: 100px) and (max-width: 800px) {
