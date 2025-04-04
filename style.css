@@ -85,7 +85,7 @@ h2 {
 
 h3 {
 		font: 700 1.25rem/1.25rem "neue-haas-grotesk-display", sans-serif; 
-		margin-bottom: 2.5rem;
+		margin-bottom: 2rem;
 }
 
 ul li { font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; }
@@ -208,6 +208,7 @@ section.about div p a:hover {
 }
 
 section.about div ul li {
+	font: 700 1.25rem/1.25rem "neue-haas-grotesk-display", sans-serif; 
 	margin-right: 1rem;
 }
 
