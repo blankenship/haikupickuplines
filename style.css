@@ -117,6 +117,10 @@ header figure figcaption {
 	padding: 5rem 0;
 }
 
+header section nav ul {
+	float: right;
+}
+
 header section nav ul li {
 	font: 700 1.5rem/1.5rem "neue-haas-grotesk-display", sans-serif;
 	margin: 0 .5rem;
@@ -139,9 +143,9 @@ header main {
 
 header section nav {
 	display: grid;
-	grid-template-columns: 20% 80%;
+	grid-template-columns: 10% 90%;
 	margin: 0 auto;
-	padding: 7rem;
+	padding: 5rem 7rem 5rem;
 }
 
 header section nav img { width: 100%; }
