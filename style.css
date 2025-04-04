@@ -375,6 +375,8 @@ footer p {
 	width: 80%; 
 }
 
+footer p span { display: block; }
+
 h2 {
 	font: 400 1.5rem/2rem 'Albra Display TRIAL', Albra, serif;
 	margin-bottom: 2rem;
