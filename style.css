@@ -107,7 +107,7 @@ header {
 	grid-template-columns: 40% 60%;
 	margin: 0 auto;
 	padding: 0;
-	max-width: 1400px;
+	max-width: 1600px;
 }
 
 header figure {
@@ -191,7 +191,7 @@ button:hover {
 figcaption ul li button { margin: 0 1rem; }
 
 section.about {
-		max-width: 1400px;
+		max-width: 1600px;
 }
 
 section.about div {
