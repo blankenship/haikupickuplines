@@ -326,12 +326,12 @@ footer p a {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-500px * 10)); /* Width of each item (300px) + margin (200px) * number of items */
+    transform: translateX(calc(-500px * 7)); /* Width of each item (300px) + margin (200px) * number of items */
   }
 }
 
 .scroll-container {
-  animation: scroll 60s linear infinite;
+  animation: scroll 70s linear infinite;
 }
 
 /* Optional: Pause animation on hover */
