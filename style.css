@@ -79,7 +79,7 @@ h1 { display: none; }
 
 h2 {
 	color: black;
-	font: 400 2rem/2.5rem serif;
+	font: 400 2rem/2.5rem Albra, serif;
 	margin-bottom: 2.5rem;
 }
 
@@ -91,7 +91,7 @@ h3 {
 ul li { font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; }
 
 p {
-	font: 400 1.5rem/2rem serif;
+	font: 400 1.5rem/2rem Albra, serif;
 	margin-bottom: 2rem;
 }
 
