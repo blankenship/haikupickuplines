@@ -343,7 +343,21 @@ footer p a {
 
 /* WEE SCREENS */
 
-@media (min-width: 801px) and (max-width: 1000px) {  }
+@media (min-width: 100px) and (max-width: 1000px) { 
+
+header {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+} 
+
+section.about {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+}
+
+}
 
 @media (min-width: 100px) and (max-width: 800px) {
 
