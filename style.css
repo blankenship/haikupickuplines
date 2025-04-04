@@ -394,6 +394,23 @@ section#about div ul li {
 	font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; 
 }
 
-@media (min-width: 100px) and (max-width: 800px) {
+.gallery li {
+  margin-left: 100px;
+}
 
-	}
+
+/* Animation container */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-400px * 7)); /* Width of each item (300px) + margin (100px) * number of items */
+  }
+}
+
+.scroll-container {
+  animation: scroll 42s linear infinite;
+}
+
+}
