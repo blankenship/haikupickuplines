@@ -228,7 +228,7 @@ section#about p {
 	text-align: justify;
 }
 
-section.about div p a {
+section#about div p a {
 	border-bottom: 1px solid dimgray;
 	color: inherit;
 	text-decoration: none;
