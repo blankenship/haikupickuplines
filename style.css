@@ -138,12 +138,10 @@ header section nav ul li a:hover {
 }
 
 header main {
-	padding: 0 7rem 7rem;
+	padding: 0 7rem 5rem;
 }
 
 header section nav {
-	display: grid;
-	grid-template-columns: 10% 90%;
 	margin: 0 auto;
 	padding: 5rem 7rem 5rem;
 }
@@ -200,7 +198,9 @@ section.about p {
 }
 
 section.about div p a {
+	border-bottom: 1px solid gray;
 	color: inherit;
+	text-decoration: none;
 }
 
 section.about div p a:hover {
@@ -213,7 +213,6 @@ section.about div ul li {
 }
 
 section.about div ul li a {
-	border-bottom: 1px sild gray;
 	color: firebrick;
 	text-decoration: none;
 }
@@ -229,15 +228,12 @@ section.about figure img {
 footer {
 	background: firebrick;
 	color: black;
-	display: grid;
-	grid-template-columns: 50% 50%;
 	margin: 0 auto;
 	text-align: center;
 	padding: 3.5rem 0;
 }
 
 footer p {
-	display: block;
 	font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; 
 }
 
