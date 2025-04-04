@@ -118,6 +118,7 @@ header figure figcaption {
 }
 
 header section nav ul {
+	border-bottom: 1px solid black;
 	display: flex;
   justify-content: space-between;
   width: 100%;
