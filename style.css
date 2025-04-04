@@ -182,7 +182,13 @@ button:hover {
 	color: black;
 }
 
-figcaption ul li button { margin: 0 1rem; }
+figcaption ul {
+	display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+figcaption ul li button { flex: 1; }
 
 section.about {
 		max-width: 1600px;
@@ -211,7 +217,14 @@ section.about div p a:hover {
 	color: firebrick;
 }
 
+section.about div ul {
+	display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 section.about div ul li {
+	flex: 1;
 	font: 700 1.25rem/1.25rem "neue-haas-grotesk-display", sans-serif; 
 	margin-right: 1.5rem;
 }
