@@ -79,7 +79,7 @@ h1 { display: none; }
 
 h2 {
 	color: black;
-	font: 400 1.75rem/2.25rem Albra, serif;
+	font: 400 1.75rem/2.25rem 'Albra Display TRIAL', Albra, serif;
 	margin-bottom: 2.25rem;
 }
 
@@ -91,7 +91,7 @@ h3 {
 ul li { font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; }
 
 p {
-	font: 400 1.5rem/2rem Albra, serif;
+	font: 400 1.5rem/2rem 'Albra Display TRIAL', Albra, serif;
 	margin-bottom: 2rem;
 }
 
@@ -376,7 +376,7 @@ footer p {
 }
 
 h2 {
-	font: 400 1.5rem/2rem Albra, serif;
+	font: 400 1.5rem/2rem 'Albra Display TRIAL', Albra, serif;
 	margin-bottom: 2rem;
 }
 
@@ -386,7 +386,7 @@ h3 {
 }
 
 p {
-	font: 400 1.25rem/1.75rem Albra, serif;
+	font: 400 1.25rem/1.75rem 'Albra Display TRIAL', Albra, serif;
 	margin-bottom: 1.75rem;
 }
 
