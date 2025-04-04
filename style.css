@@ -299,6 +299,11 @@ footer p a {
   display: block;
 }
 
+.gallery li p {
+	font: 400 1rem/1.5rem Albra, serif;
+	white-space: pre;
+}
+
 /* Animation container */
 @keyframes scroll {
   0% {
