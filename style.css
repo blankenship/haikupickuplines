@@ -341,7 +341,7 @@ figcaption ul li button {
   margin: 0 .5rem;
 }
 
-header section nav ul li a span { display: none; }
+nav li span { display: none; }
 
 header main {
 	padding: 0 5vw 3rem;
