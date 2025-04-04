@@ -75,10 +75,7 @@ figure img {
 
 /* TYPOGRAPHY */
 
-h1 {
-	color: black;
-	font: 700 1.5rem/1.5rem "neue-haas-grotesk-display", sans-serif;
-}
+h1 { display: none; }
 
 h2 {
 	color: black;
@@ -142,20 +139,12 @@ header main {
 
 header section nav {
 	display: grid;
-	grid-template-columns: 40% 60%;
+	grid-template-columns: 20% 80%;
 	margin: 0 auto;
 	padding: 7rem;
 }
 
-main aside {
-	display: grid;
-	grid-template-columns: 75% 15%;
-	grid-column-gap: 10%;
-}
-
-main aside img {
-	width: 100%;
-}
+header section nav img { width: 100%; }
 
 main p {
 	text-align: justify;
