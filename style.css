@@ -341,12 +341,22 @@ footer p {
 header {
 	display: block;
 	margin: 0 auto;
-	padding: 0 5vw;
+	padding: 0;
 } 
 
 header figure figcaption {
 	padding: 3rem 0;
 }
+
+figcaption ul {
+  width: 100%;
+}
+
+figcaption ul li button { 
+  margin: 0 .5rem;
+}
+
+header section nav ul li a span { display: none; }
 
 header main {
 	padding: 0 5vw 3rem;
@@ -364,7 +374,6 @@ main h2:last-of-type {
 section#about {
 	display: block;
 	margin: 0 auto;
-	padding: 0 5vw;
 }
 
 section#about div {
@@ -372,7 +381,23 @@ section#about div {
 }
 
 footer p {
+	margin: 0 auto;
 	width: 75%; 
+}
+
+h2 {
+	font: 400 1.5rem/2rem Albra, serif;
+	margin-bottom: 2rem;
+}
+
+h3 {
+		font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; 
+		margin-bottom: 1.75rem;
+}
+
+p {
+	font: 400 1.25rem/1.75rem Albra, serif;
+	margin-bottom: 1.75rem;
 }
 
 }
