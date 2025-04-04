@@ -118,7 +118,6 @@ header figure figcaption {
 }
 
 header section nav ul {
-	border-bottom: 1px solid black;
 	display: flex;
   justify-content: space-between;
   width: 100%;
@@ -127,7 +126,6 @@ header section nav ul {
 header section nav ul li {
 	font: 700 1.25rem/1.25rem "neue-haas-grotesk-display", sans-serif; 
 	flex: 1;
-  text-align: center;
 }
 
 header section nav ul li a {
