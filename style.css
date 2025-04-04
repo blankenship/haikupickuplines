@@ -112,7 +112,7 @@ header figure {
 }
 
 header figure figcaption {
-	margin: auto;
+	margin: 0 auto;
 	text-align: center;
 	padding: 5rem 0;
 }
@@ -341,13 +341,34 @@ footer p {
 header {
 	display: block;
 	margin: 0 auto;
-	padding: 0;
+	padding: 0 5vw;
 } 
+
+header figure figcaption {
+	padding: 3rem 0;
+}
+
+header main {
+	padding: 0 5vw 3rem;
+}
+
+header section nav {
+	margin: 0 auto;
+	padding: 3rem 5vw;
+}
+
+main h2:last-of-type {
+	margin-bottom: 5rem;
+}
 
 section#about {
 	display: block;
 	margin: 0 auto;
-	padding: 0;
+	padding: 0 5vw;
+}
+
+section#about div {
+	padding: 5rem 5vw;
 }
 
 footer p {
