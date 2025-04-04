@@ -184,21 +184,6 @@ button:hover {
 	color: black;
 }
 
-button.secondary { 
-	background: inherit;
-	border: 2px solid black;
-	color: black;
-}
-
-button.secondary a { 
-	color: black; 
-}
-
-button.secondary a:hover {
-	background: black;
-	color: firebrick;
-}
-
 figcaption ul {
   margin: 0 auto;
   width: 80%;
