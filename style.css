@@ -288,7 +288,7 @@ footer p a {
 
 .gallery li {
   flex: 0 0 300px; /* Fixed width for each item */
-  margin-left: 100px;
+  margin-left: 200px;
   overflow: hidden;
 }
 
@@ -308,7 +308,7 @@ footer p a {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-400px * 10)); /* Width of each item (300px) + margin (100px) * number of items */
+    transform: translateX(calc(-500px * 10)); /* Width of each item (300px) + margin (200px) * number of items */
   }
 }
 
