@@ -184,6 +184,24 @@ button:hover {
 	color: black;
 }
 
+button.secondary { 
+	background: inherit;
+	border: 2px solid black;
+	color: black;
+}
+
+button.secondary a { 
+	color: snow; 
+	font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; 
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+button.secondary:hover {
+	background: firebrick;
+	color: black;
+}
+
 figcaption ul {
   margin: 0 auto;
   width: 80%;
