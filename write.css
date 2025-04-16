@@ -179,3 +179,9 @@ body {
             max-width: 90vw;
             margin: 0 auto;
         }
+
+        input {
+            font-size: 20px;
+        }
+
+    }
