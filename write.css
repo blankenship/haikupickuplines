@@ -73,16 +73,16 @@ body {
         }
         
         .line-container {
-            margin-bottom: 15px;
+            margin-bottom: 1px;
             position: relative;
         }
         
         input {
             width: 100%;
-            padding: 10px 0;
-            font-size: 30px;
+            padding: 10px 0 5px;
+            font-size: 25px;
             border: none;
-            border-bottom: 2px solid white;
+            border-bottom: 1px solid white;
             font-family: 'Albra Display TRIAL', Albra, 'Georgia', serif;
             background: transparent;
         }
@@ -93,25 +93,22 @@ body {
         
         .syllable-count {
             position: absolute;
-            right: 0;
+            left: 0;
             top: 50%;
             transform: translateY(-50%);
-            font-size: 30px;
+            font-size: 20px;
             font-family: "neue-haas-grotesk-display", sans-serif;
-            font-weight: bold;
-            color: #888;
+            color: #999;
             opacity: 0;
             transition: opacity 0.25s ease;
         }
         
         .over-limit {
             color: firebrick;
-            font-weight: bold;
         }
         
         .correct-count {
             color: green;
-            font-weight: bold;
         }
         
         .copy-button {
@@ -132,6 +129,7 @@ body {
         
         .copy-button:hover {
             background-color: black;
+            color: white;
         }
         
         .copy-button:active {
