@@ -61,115 +61,358 @@ html {
 }
 
 body {
-            font-family: 'Albra Display TRIAL', Albra, 'Georgia', serif;
-            height: 100vh;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: snow;
-            background-image: url(data:image/png;base64,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);
-        }
-        
-        .container {
-            width: 100%;
-            max-width: 600px;
-        }
-        
-        .line-container {
-            margin-bottom: 15px;
-            position: relative;
-        }
-        
-        input {
-            width: 100%;
-            padding: 10px 0;
-            font-size: 30px;
-            border: none;
-            border-bottom: 2px solid white;
-            font-family: 'Albra Display TRIAL', Albra, 'Georgia', serif;
-            background: transparent;
-        }
-        
-        input:focus {
-            outline: none;
-        }
-        
-        .syllable-count {
-            position: absolute;
-            right: 0;
-            top: 50%;
-            transform: translateY(-50%);
-            font-size: 30px;
-            font-family: "neue-haas-grotesk-display", sans-serif;
-            font-weight: bold;
-            color: #888;
-            opacity: 0;
-            transition: opacity 0.25s ease;
-        }
-        
-        .over-limit {
-            color: firebrick;
-            font-weight: bold;
-        }
-        
-        .correct-count {
-            color: green;
-            font-weight: bold;
-        }
-        
-        .copy-button {
-            display: block;
-            margin-top: 20px;
-            padding: 15px 30px;
-            font-size: 18px;
-            font-weight: bold;
-            background-color: firebrick;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            opacity: 0;
-            pointer-events: none;
-        }
-        
-        .copy-button:hover {
-            background-color: black;
-        }
-        
-        .copy-button:active {
-            transform: translateY(1px);
-        }
-        
-        .copied-message {
-            text-align: center;
-            color: green;
-            margin-top: 15px;
-            font-size: 15px;
-            font-family: "neue-haas-grotesk-display", sans-serif;
-            opacity: 0;
-            transition: opacity 0.3s;
-        }
-        
-        .show-message {
-            opacity: 1;
-        }
-        
-        .show-button {
-            opacity: 1;
-            pointer-events: auto;
-        }
-        
-        .fade-in {
-            opacity: 1;
-        }
-        
-        #fallbackTextarea {
-            position: absolute;
-            left: -9999px;
-            top: 0;
-            height: 1px;
-            width: 1px;
-            opacity: 0;
-        }
+	background-color: black;
+	color: black;
+	line-height: 1.5;
+}
+
+ul li { display: inline; }
+
+figure img { 
+	width: 100%;
+	object-fit: cover; 
+}
+
+/* TYPOGRAPHY */
+
+h1 { display: none; }
+
+h2 {
+	color: black;
+	font: 400 1.75rem/2.25rem 'Albra Display TRIAL', Albra, serif;
+	margin-bottom: 2.25rem;
+}
+
+h3 {
+		font: 700 1.25rem/1.25rem "neue-haas-grotesk-display", sans-serif; 
+		margin-bottom: 2rem;
+}
+
+ul li { font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; }
+
+p {
+	font: 400 1.25rem/1.75rem 'Albra Display TRIAL', Albra, serif;
+	margin-bottom: 1.75rem;
+}
+
+/* STRUCTURE */
+
+header {
+	background: snow;
+	background-image: url(data:image/png;base64,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);
+	display: grid;
+	grid-template-columns: 40% 60%;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1600px;
+}
+
+header figure {
+	background: firebrick;
+}
+
+header figure figcaption {
+	margin: 0 auto;
+	text-align: center;
+	padding: 5rem 0;
+}
+
+header section nav ul {
+	display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header section nav ul li {
+	font: 700 1.25rem/1.25rem "neue-haas-grotesk-display", sans-serif; 
+  text-align: center;
+}
+
+header section nav ul li a {
+	color: firebrick;
+	text-decoration: none;
+}
+
+header section nav ul li a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+header main {
+	padding: 0 7rem 5rem;
+}
+
+header section nav {
+	margin: 0 auto;
+	padding: 5rem 7rem 5rem;
+}
+
+header section nav img { width: 100%; }
+
+main h2:last-of-type {
+	margin-bottom: 7rem;
+}
+
+main p {
+	text-align: justify;
+}
+
+section#about {
+	display: grid;
+	grid-template-columns: 60% 40%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+button { 
+	background: black;
+	border: 0 none;
+	border-radius: .5rem;
+	color: snow;
+	padding: 1rem;
+}
+
+button a { 
+	color: snow; 
+	font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; 
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+button:hover {
+	background: firebrick;
+	color: black;
+}
+
+figcaption ul {
+  margin: 0 auto;
+  width: 80%;
+}
+
+figcaption ul li button { 
+  margin: 0 1rem;
+  text-align: center;
+}
+
+section#about {
+		max-width: 1600px;
+}
+
+section#about div {
+	background: black;
+	color: snow;
+	padding: 7rem;
+}
+
+section#about p {
+	font: 200 1.25rem/1.75rem "neue-haas-grotesk-display", sans-serif; 
+	margin-bottom: 4rem;
+	text-align: justify;
+}
+
+section#about div p a {
+	border-bottom: 1px solid dimgray;
+	color: inherit;
+	text-decoration: none;
+	padding-bottom: .2rem;
+}
+
+section#about div p a:hover {
+	color: firebrick;
+}
+
+section#about div ul {
+	display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+section#about div ul li {
+	font: 700 1.25rem/1.25rem "neue-haas-grotesk-display", sans-serif; 
+  text-align: center;
+}
+
+section#about div ul li a {
+	color: firebrick;
+	text-decoration: none;
+}
+
+section#about div ul li a:hover {
+	color: snow;
+}
+
+section#about figure img { 
+	background: black;
+}
+
+footer {
+	background: firebrick;
+	color: black;
+	margin: 0 auto;
+	text-align: center;
+	padding: 3.5rem 0;
+}
+
+footer p {
+	font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; 
+}
+
+
+
+/* DRAWINGS */
+
+.gallery-container {
+  background: white;
+  width: 100vw;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  padding: 5rem 0;
+}
+
+.scroll-container {
+  display: flex;
+  width: max-content; /* Allow content to determine width */
+}
+
+.gallery {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.gallery li {
+  flex: 0 0 300px; /* Fixed width for each item */
+  margin-left: 200px;
+  overflow: hidden;
+}
+
+.gallery img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery li p {
+}
+
+/* Animation container */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-500px * 7)); /* Width of each item (300px) + margin (200px) * number of items */
+  }
+}
+
+.scroll-container {
+  animation: scroll 70s linear infinite;
+}
+
+/* Optional: Pause animation on hover */
+.scroll-container:hover {
+  animation-play-state: paused;
+}
+
+
+
+/* WEE SCREENS */
+
+@media (min-width: 100px) and (max-width: 1000px) { 
+
+header {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+} 
+
+header figure figcaption {
+	padding: 3rem 0;
+}
+
+figcaption ul {
+  width: 100%;
+}
+
+figcaption ul li button { 
+  margin: 0 .5rem;
+}
+
+nav li span { display: none; }
+
+header main {
+	padding: 0 5vw 3rem;
+}
+
+header section nav {
+	margin: 0 auto;
+	padding: 5rem 5vw;
+}
+
+main h2:last-of-type {
+	margin-bottom: 5rem;
+}
+
+section#about {
+	display: block;
+	margin: 0 auto;
+}
+
+section#about div {
+	padding: 5rem 5vw;
+}
+
+section#about p {
+	text-align: left;
+}
+
+footer p {
+	color: snow;
+	margin: 0 auto;
+	width: 80%; 
+}
+
+footer p span { display: block; }
+
+h2 {
+	font: 400 1.5rem/2rem 'Albra Display TRIAL', Albra, serif;
+	margin-bottom: 2rem;
+}
+
+h3 {
+	font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; 
+	margin-bottom: 1.75rem;
+}
+
+p {
+	font: 400 1.25rem/1.75rem 'Albra Display TRIAL', Albra, serif;
+	margin-bottom: 1.75rem;
+}
+
+section#about div ul li {
+	font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif; 
+}
+
+.gallery li {
+  margin-left: 100px;
+}
+
+
+/* Animation container */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-400px * 7)); /* Width of each item (300px) + margin (100px) * number of items */
+  }
+}
+
+.scroll-container {
+  animation: scroll 42s linear infinite;
+}
+
+}
