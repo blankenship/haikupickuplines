@@ -62,7 +62,7 @@
         // Function to count syllables in a word
         function countSyllables(word) {
             word = word.toLowerCase().trim();
-            if (word.length <= 3) return 1;
+            if (word.length <= 4) return 1;
             
             // Remove trailing e (silent e rule)
             word = word.replace(/e$/, '');
@@ -75,7 +75,7 @@
             let count = 0;
             for (let group of vowelGroups) {
                 // Count each vowel group but count common dipthongs as one
-                group = group.replace(/(?:oi|oy|ou|ow|au|oo|ee|ea|ai|ay|ey|our|uil)/, '0');
+                group = group.replace(/(?:oi|oy|ou|ow|au|oo|ee|ea|ai|ay|ey)/, '0');
                 count += group.length;
             }
             
