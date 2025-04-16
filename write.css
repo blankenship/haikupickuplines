@@ -169,3 +169,15 @@ body {
             width: 1px;
             opacity: 0;
         }
+
+
+
+/* WEE SCREENS */
+
+@media (min-width: 100px) and (max-width: 1000px) { 
+
+            .container {
+            width: 90vw;
+            max-width: 90vw;
+            margin: 0 auto;
+        }
